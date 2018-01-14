@@ -7,7 +7,6 @@
 
 import Foundation
 import Alamofire
-import Harvest
 
 struct AlamofireClient: NetworkClient {
     

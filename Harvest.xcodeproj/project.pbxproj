@@ -1,0 +1,853 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		"Harvest::HarvestPackageTests::ProductTarget" /* HarvestPackageTests */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = OBJ_96 /* Build configuration list for PBXAggregateTarget "HarvestPackageTests" */;
+			buildPhases = (
+			);
+			dependencies = (
+				OBJ_99 /* PBXTargetDependency */,
+			);
+			name = HarvestPackageTests;
+			productName = HarvestPackageTests;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		650EB333E39F740901C49737 /* HarvestTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 650EBB097E9A292EA92372ED /* HarvestTestCase.swift */; };
+		664841791FF52E28005AE88E /* Alamofire+Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664841781FF52E28005AE88E /* Alamofire+Codable.swift */; };
+		6648417A1FF52E28005AE88E /* Alamofire+Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664841781FF52E28005AE88E /* Alamofire+Codable.swift */; };
+		6648417B1FF52E28005AE88E /* Alamofire+Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664841781FF52E28005AE88E /* Alamofire+Codable.swift */; };
+		6648417D1FF590CC005AE88E /* Harvest+Mock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6648417C1FF590CC005AE88E /* Harvest+Mock.swift */; };
+		6648417E1FF590CC005AE88E /* Harvest+Mock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6648417C1FF590CC005AE88E /* Harvest+Mock.swift */; };
+		6648417F1FF590CC005AE88E /* Harvest+Mock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6648417C1FF590CC005AE88E /* Harvest+Mock.swift */; };
+		664841811FF59B63005AE88E /* Harvest+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664841801FF59B63005AE88E /* Harvest+Alamofire.swift */; };
+		664841821FF59B63005AE88E /* Harvest+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664841801FF59B63005AE88E /* Harvest+Alamofire.swift */; };
+		664841831FF59B64005AE88E /* Harvest+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664841801FF59B63005AE88E /* Harvest+Alamofire.swift */; };
+		664841851FF5A47C005AE88E /* me.json in Resources */ = {isa = PBXBuildFile; fileRef = 650EB29A644B7866390E15F6 /* me.json */; };
+		664841881FF648B9005AE88E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664841871FF648B9005AE88E /* User.swift */; };
+		664841891FF648B9005AE88E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664841871FF648B9005AE88E /* User.swift */; };
+		6648418A1FF648B9005AE88E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664841871FF648B9005AE88E /* User.swift */; };
+		6648418C1FF650D5005AE88E /* users.json in Resources */ = {isa = PBXBuildFile; fileRef = 6648418B1FF650D5005AE88E /* users.json */; };
+		6648418E1FF652FE005AE88E /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6648418D1FF652FE005AE88E /* Page.swift */; };
+		6648418F1FF652FE005AE88E /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6648418D1FF652FE005AE88E /* Page.swift */; };
+		664841901FF652FE005AE88E /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6648418D1FF652FE005AE88E /* Page.swift */; };
+		OBJ_44 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
+		OBJ_50 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_17 /* Package.swift */; };
+		OBJ_56 /* UserAPITest.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* UserAPITest.swift */; };
+		OBJ_58 /* Harvest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Harvest::Harvest::Product" /* Harvest.framework */; };
+		OBJ_59 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Alamofire::Alamofire::Product" /* Alamofire.framework */; };
+		OBJ_68 /* UserAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* UserAPI.swift */; };
+		OBJ_69 /* Harvest.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_10 /* Harvest.swift */; };
+		OBJ_71 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Alamofire::Alamofire::Product" /* Alamofire.framework */; };
+		OBJ_77 /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_18 /* AFError.swift */; };
+		OBJ_78 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_19 /* Alamofire.swift */; };
+		OBJ_79 /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_20 /* DispatchQueue+Alamofire.swift */; };
+		OBJ_80 /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_21 /* MultipartFormData.swift */; };
+		OBJ_81 /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_22 /* NetworkReachabilityManager.swift */; };
+		OBJ_82 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_23 /* Notifications.swift */; };
+		OBJ_83 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_24 /* ParameterEncoding.swift */; };
+		OBJ_84 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_25 /* Request.swift */; };
+		OBJ_85 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_26 /* Response.swift */; };
+		OBJ_86 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_27 /* ResponseSerialization.swift */; };
+		OBJ_87 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_28 /* Result.swift */; };
+		OBJ_88 /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_29 /* ServerTrustPolicy.swift */; };
+		OBJ_89 /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_30 /* SessionDelegate.swift */; };
+		OBJ_90 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_31 /* SessionManager.swift */; };
+		OBJ_91 /* TaskDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_32 /* TaskDelegate.swift */; };
+		OBJ_92 /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_33 /* Timeline.swift */; };
+		OBJ_93 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_34 /* Validation.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		664841741FF50BC2005AE88E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = Alamofire::Alamofire;
+			remoteInfo = Alamofire;
+		};
+		664841751FF50BC2005AE88E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = Harvest::Harvest;
+			remoteInfo = Harvest;
+		};
+		664841761FF50BC2005AE88E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = Alamofire::Alamofire;
+			remoteInfo = Alamofire;
+		};
+		664841771FF50BC2005AE88E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = Harvest::HarvestTests;
+			remoteInfo = HarvestTests;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		650EB29A644B7866390E15F6 /* me.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = me.json; sourceTree = "<group>"; };
+		650EBB097E9A292EA92372ED /* HarvestTestCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HarvestTestCase.swift; sourceTree = "<group>"; };
+		664841781FF52E28005AE88E /* Alamofire+Codable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Alamofire+Codable.swift"; sourceTree = "<group>"; };
+		6648417C1FF590CC005AE88E /* Harvest+Mock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Harvest+Mock.swift"; sourceTree = "<group>"; };
+		664841801FF59B63005AE88E /* Harvest+Alamofire.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Harvest+Alamofire.swift"; sourceTree = "<group>"; };
+		664841871FF648B9005AE88E /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		6648418B1FF650D5005AE88E /* users.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = users.json; sourceTree = "<group>"; };
+		6648418D1FF652FE005AE88E /* Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
+		"Alamofire::Alamofire::Product" /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"Harvest::Harvest::Product" /* Harvest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Harvest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"Harvest::HarvestTests::Product" /* HarvestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = HarvestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_10 /* Harvest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Harvest.swift; sourceTree = "<group>"; };
+		OBJ_13 /* UserAPITest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAPITest.swift; sourceTree = "<group>"; };
+		OBJ_14 /* build */ = {isa = PBXFileReference; lastKnownFileType = folder; path = build; sourceTree = SOURCE_ROOT; };
+		OBJ_17 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Package.swift; path = "/Users/samuelbichsel/Documents/Repositories/Private/JustTrack/Harvest/.build/checkouts/Alamofire.git-6801331143877184500/Package.swift"; sourceTree = "<group>"; };
+		OBJ_18 /* AFError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFError.swift; sourceTree = "<group>"; };
+		OBJ_19 /* Alamofire.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alamofire.swift; sourceTree = "<group>"; };
+		OBJ_20 /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
+		OBJ_21 /* MultipartFormData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipartFormData.swift; sourceTree = "<group>"; };
+		OBJ_22 /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkReachabilityManager.swift; sourceTree = "<group>"; };
+		OBJ_23 /* Notifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notifications.swift; sourceTree = "<group>"; };
+		OBJ_24 /* ParameterEncoding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParameterEncoding.swift; sourceTree = "<group>"; };
+		OBJ_25 /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		OBJ_26 /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		OBJ_27 /* ResponseSerialization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseSerialization.swift; sourceTree = "<group>"; };
+		OBJ_28 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		OBJ_29 /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerTrustPolicy.swift; sourceTree = "<group>"; };
+		OBJ_30 /* SessionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionDelegate.swift; sourceTree = "<group>"; };
+		OBJ_31 /* SessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionManager.swift; sourceTree = "<group>"; };
+		OBJ_32 /* TaskDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskDelegate.swift; sourceTree = "<group>"; };
+		OBJ_33 /* Timeline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Timeline.swift; sourceTree = "<group>"; };
+		OBJ_34 /* Validation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validation.swift; sourceTree = "<group>"; };
+		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		OBJ_9 /* UserAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAPI.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		OBJ_57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_58 /* Harvest.framework in Frameworks */,
+				OBJ_59 /* Alamofire.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_71 /* Alamofire.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		650EB380B6FD836885328E92 /* Requests */ = {
+			isa = PBXGroup;
+			children = (
+				650EB29A644B7866390E15F6 /* me.json */,
+				6648418B1FF650D5005AE88E /* users.json */,
+			);
+			name = Requests;
+			sourceTree = "<group>";
+		};
+		664841861FF6487D005AE88E /* Users */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_9 /* UserAPI.swift */,
+				664841871FF648B9005AE88E /* User.swift */,
+			);
+			path = Users;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_11 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_12 /* HarvestTests */,
+			);
+			name = Tests;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_12 /* HarvestTests */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_13 /* UserAPITest.swift */,
+				650EB380B6FD836885328E92 /* Requests */,
+				650EBB097E9A292EA92372ED /* HarvestTestCase.swift */,
+			);
+			name = HarvestTests;
+			path = Tests/HarvestTests;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_15 /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_16 /* Alamofire 4.6.0 */,
+			);
+			name = Dependencies;
+			sourceTree = "<group>";
+		};
+		OBJ_16 /* Alamofire 4.6.0 */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_17 /* Package.swift */,
+				OBJ_18 /* AFError.swift */,
+				OBJ_19 /* Alamofire.swift */,
+				OBJ_20 /* DispatchQueue+Alamofire.swift */,
+				OBJ_21 /* MultipartFormData.swift */,
+				OBJ_22 /* NetworkReachabilityManager.swift */,
+				OBJ_23 /* Notifications.swift */,
+				OBJ_24 /* ParameterEncoding.swift */,
+				OBJ_25 /* Request.swift */,
+				OBJ_26 /* Response.swift */,
+				OBJ_27 /* ResponseSerialization.swift */,
+				OBJ_28 /* Result.swift */,
+				OBJ_29 /* ServerTrustPolicy.swift */,
+				OBJ_30 /* SessionDelegate.swift */,
+				OBJ_31 /* SessionManager.swift */,
+				OBJ_32 /* TaskDelegate.swift */,
+				OBJ_33 /* Timeline.swift */,
+				OBJ_34 /* Validation.swift */,
+			);
+			name = "Alamofire 4.6.0";
+			path = ".build/checkouts/Alamofire.git-6801331143877184500/Source";
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_35 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				"Harvest::HarvestTests::Product" /* HarvestTests.xctest */,
+				"Harvest::Harvest::Product" /* Harvest.framework */,
+				"Alamofire::Alamofire::Product" /* Alamofire.framework */,
+			);
+			name = Products;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		OBJ_5 = {
+			isa = PBXGroup;
+			children = (
+				OBJ_6 /* Package.swift */,
+				OBJ_7 /* Sources */,
+				OBJ_11 /* Tests */,
+				OBJ_14 /* build */,
+				OBJ_15 /* Dependencies */,
+				OBJ_35 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		OBJ_7 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_8 /* Harvest */,
+			);
+			name = Sources;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_8 /* Harvest */ = {
+			isa = PBXGroup;
+			children = (
+				664841861FF6487D005AE88E /* Users */,
+				OBJ_10 /* Harvest.swift */,
+				6648417C1FF590CC005AE88E /* Harvest+Mock.swift */,
+				6648418D1FF652FE005AE88E /* Page.swift */,
+				664841801FF59B63005AE88E /* Harvest+Alamofire.swift */,
+				664841781FF52E28005AE88E /* Alamofire+Codable.swift */,
+			);
+			name = Harvest;
+			path = Sources/Harvest;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		"Alamofire::Alamofire" /* Alamofire */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_73 /* Build configuration list for PBXNativeTarget "Alamofire" */;
+			buildPhases = (
+				OBJ_76 /* Sources */,
+				OBJ_94 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Alamofire;
+			productName = Alamofire;
+			productReference = "Alamofire::Alamofire::Product" /* Alamofire.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"Alamofire::SwiftPMPackageDescription" /* AlamofirePackageDescription */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_46 /* Build configuration list for PBXNativeTarget "AlamofirePackageDescription" */;
+			buildPhases = (
+				OBJ_49 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AlamofirePackageDescription;
+			productName = AlamofirePackageDescription;
+			productType = "com.apple.product-type.framework";
+		};
+		"Harvest::Harvest" /* Harvest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_64 /* Build configuration list for PBXNativeTarget "Harvest" */;
+			buildPhases = (
+				OBJ_67 /* Sources */,
+				OBJ_70 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				OBJ_72 /* PBXTargetDependency */,
+			);
+			name = Harvest;
+			productName = Harvest;
+			productReference = "Harvest::Harvest::Product" /* Harvest.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"Harvest::HarvestTests" /* HarvestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_52 /* Build configuration list for PBXNativeTarget "HarvestTests" */;
+			buildPhases = (
+				OBJ_55 /* Sources */,
+				OBJ_57 /* Frameworks */,
+				664841841FF5A473005AE88E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				OBJ_60 /* PBXTargetDependency */,
+				OBJ_62 /* PBXTargetDependency */,
+			);
+			name = HarvestTests;
+			productName = HarvestTests;
+			productReference = "Harvest::HarvestTests::Product" /* HarvestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		"Harvest::SwiftPMPackageDescription" /* HarvestPackageDescription */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_40 /* Build configuration list for PBXNativeTarget "HarvestPackageDescription" */;
+			buildPhases = (
+				OBJ_43 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HarvestPackageDescription;
+			productName = HarvestPackageDescription;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		OBJ_1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				TargetAttributes = {
+					"Harvest::HarvestPackageTests::ProductTarget" = {
+						LastSwiftMigration = 0920;
+					};
+				};
+			};
+			buildConfigurationList = OBJ_2 /* Build configuration list for PBXProject "Harvest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = OBJ_5;
+			productRefGroup = OBJ_35 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				"Harvest::SwiftPMPackageDescription" /* HarvestPackageDescription */,
+				"Alamofire::SwiftPMPackageDescription" /* AlamofirePackageDescription */,
+				"Harvest::HarvestTests" /* HarvestTests */,
+				"Harvest::Harvest" /* Harvest */,
+				"Alamofire::Alamofire" /* Alamofire */,
+				"Harvest::HarvestPackageTests::ProductTarget" /* HarvestPackageTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		664841841FF5A473005AE88E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				664841851FF5A47C005AE88E /* me.json in Resources */,
+				6648418C1FF650D5005AE88E /* users.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		OBJ_43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_44 /* Package.swift in Sources */,
+				664841791FF52E28005AE88E /* Alamofire+Codable.swift in Sources */,
+				6648418E1FF652FE005AE88E /* Page.swift in Sources */,
+				664841811FF59B63005AE88E /* Harvest+Alamofire.swift in Sources */,
+				664841881FF648B9005AE88E /* User.swift in Sources */,
+				6648417D1FF590CC005AE88E /* Harvest+Mock.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_50 /* Package.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_56 /* UserAPITest.swift in Sources */,
+				6648417A1FF52E28005AE88E /* Alamofire+Codable.swift in Sources */,
+				6648418F1FF652FE005AE88E /* Page.swift in Sources */,
+				664841821FF59B63005AE88E /* Harvest+Alamofire.swift in Sources */,
+				664841891FF648B9005AE88E /* User.swift in Sources */,
+				6648417E1FF590CC005AE88E /* Harvest+Mock.swift in Sources */,
+				650EB333E39F740901C49737 /* HarvestTestCase.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				6648417B1FF52E28005AE88E /* Alamofire+Codable.swift in Sources */,
+				664841831FF59B64005AE88E /* Harvest+Alamofire.swift in Sources */,
+				6648418A1FF648B9005AE88E /* User.swift in Sources */,
+				OBJ_68 /* UserAPI.swift in Sources */,
+				664841901FF652FE005AE88E /* Page.swift in Sources */,
+				6648417F1FF590CC005AE88E /* Harvest+Mock.swift in Sources */,
+				OBJ_69 /* Harvest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_77 /* AFError.swift in Sources */,
+				OBJ_78 /* Alamofire.swift in Sources */,
+				OBJ_79 /* DispatchQueue+Alamofire.swift in Sources */,
+				OBJ_80 /* MultipartFormData.swift in Sources */,
+				OBJ_81 /* NetworkReachabilityManager.swift in Sources */,
+				OBJ_82 /* Notifications.swift in Sources */,
+				OBJ_83 /* ParameterEncoding.swift in Sources */,
+				OBJ_84 /* Request.swift in Sources */,
+				OBJ_85 /* Response.swift in Sources */,
+				OBJ_86 /* ResponseSerialization.swift in Sources */,
+				OBJ_87 /* Result.swift in Sources */,
+				OBJ_88 /* ServerTrustPolicy.swift in Sources */,
+				OBJ_89 /* SessionDelegate.swift in Sources */,
+				OBJ_90 /* SessionManager.swift in Sources */,
+				OBJ_91 /* TaskDelegate.swift in Sources */,
+				OBJ_92 /* Timeline.swift in Sources */,
+				OBJ_93 /* Validation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		OBJ_60 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "Harvest::Harvest" /* Harvest */;
+			targetProxy = 664841751FF50BC2005AE88E /* PBXContainerItemProxy */;
+		};
+		OBJ_62 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "Alamofire::Alamofire" /* Alamofire */;
+			targetProxy = 664841761FF50BC2005AE88E /* PBXContainerItemProxy */;
+		};
+		OBJ_72 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "Alamofire::Alamofire" /* Alamofire */;
+			targetProxy = 664841741FF50BC2005AE88E /* PBXContainerItemProxy */;
+		};
+		OBJ_99 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "Harvest::HarvestTests" /* HarvestTests */;
+			targetProxy = 664841771FF50BC2005AE88E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		OBJ_3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = SWIFT_PACKAGE;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				USE_HEADERMAP = NO;
+			};
+			name = Debug;
+		};
+		OBJ_4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = SWIFT_PACKAGE;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				USE_HEADERMAP = NO;
+			};
+			name = Release;
+		};
+		OBJ_41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				OTHER_SWIFT_FLAGS = "-swift-version 4 -I /Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/pm/4 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		OBJ_42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				OTHER_SWIFT_FLAGS = "-swift-version 4 -I /Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/pm/4 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		OBJ_47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 3 -I /Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/pm/3 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		OBJ_48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 3 -I /Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/pm/3 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		OBJ_53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = Harvest.xcodeproj/HarvestTests_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_VERSION = 4.0;
+				TARGET_NAME = HarvestTests;
+			};
+			name = Debug;
+		};
+		OBJ_54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = Harvest.xcodeproj/HarvestTests_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_VERSION = 4.0;
+				TARGET_NAME = HarvestTests;
+			};
+			name = Release;
+		};
+		OBJ_65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = Harvest.xcodeproj/Harvest_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = Harvest;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGET_NAME = Harvest;
+			};
+			name = Debug;
+		};
+		OBJ_66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = Harvest.xcodeproj/Harvest_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = Harvest;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGET_NAME = Harvest;
+			};
+			name = Release;
+		};
+		OBJ_74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = Harvest.xcodeproj/Alamofire_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = Alamofire;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGET_NAME = Alamofire;
+			};
+			name = Debug;
+		};
+		OBJ_75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = Harvest.xcodeproj/Alamofire_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = Alamofire;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGET_NAME = Alamofire;
+			};
+			name = Release;
+		};
+		OBJ_97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		OBJ_98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		OBJ_2 /* Build configuration list for PBXProject "Harvest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_3 /* Debug */,
+				OBJ_4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		OBJ_40 /* Build configuration list for PBXNativeTarget "HarvestPackageDescription" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_41 /* Debug */,
+				OBJ_42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		OBJ_46 /* Build configuration list for PBXNativeTarget "AlamofirePackageDescription" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_47 /* Debug */,
+				OBJ_48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		OBJ_52 /* Build configuration list for PBXNativeTarget "HarvestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_53 /* Debug */,
+				OBJ_54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		OBJ_64 /* Build configuration list for PBXNativeTarget "Harvest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_65 /* Debug */,
+				OBJ_66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		OBJ_73 /* Build configuration list for PBXNativeTarget "Alamofire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_74 /* Debug */,
+				OBJ_75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		OBJ_96 /* Build configuration list for PBXAggregateTarget "HarvestPackageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_97 /* Debug */,
+				OBJ_98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = OBJ_1 /* Project object */;
+}
